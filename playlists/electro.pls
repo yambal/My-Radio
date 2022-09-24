@@ -1,0 +1,13 @@
+[playlist]
+File0=https://yambal.github.io/My-Radio/music/Drum_and_Bass_-_Peanut.mp3
+File1=https://yambal.github.io/My-Radio/music/Divine_-_Aaren_Reale.mp3
+File2=https://yambal.github.io/My-Radio/music/Effects_of_Elevation_(Citizen_Prime_Remix)_-_revolutionvoid.mp3
+File3=https://yambal.github.io/My-Radio/music/Fashion_City_-_xTrain.mp3
+File4=https://yambal.github.io/My-Radio/music/Gold_Sequence_-_Movement_of_Life_(Original_Mix)_-_StockXL.mp3
+File5=https://yambal.github.io/My-Radio/music/Igor_Pumphonia_feat._Ladynsax_-_Move_In_On_-_ChillRecords.mp3
+File6=https://yambal.github.io/My-Radio/music/MLDJ_-_Comeback_-_MLDJ.mp3
+File7=https://yambal.github.io/My-Radio/music/The_Deep_-_Anitek.mp3
+File8=https://yambal.github.io/My-Radio/music/To_The_Stars_-_Kudla.mp3
+File9=https://yambal.github.io/My-Radio/music/0db_-_Adelaide_(8f_Remaster)_-_2invention.mp3
+NumberOfEntries=10
+Version=2
