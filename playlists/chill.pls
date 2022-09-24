@@ -1,0 +1,14 @@
+[playlist]
+File0=https://yambal.github.io/My-Radio/music/Breath_of_Wind_-_Decision_Space.mp3
+File1=https://yambal.github.io/My-Radio/music/This_Lo-Fi_-_Perfect_Choice_Stuff.mp3
+File2=https://yambal.github.io/My-Radio/music/Lofi_and_Coffee_-_Jon_J._Morin.mp3
+File3=https://yambal.github.io/My-Radio/music/Springtime_Lovers_-_Chill_Guitar_Hip_Hop_Beat_Lounge_Vlog_(Full_Track)_-_Ronin_Production.mp3
+File4=https://yambal.github.io/My-Radio/music/Sunday_-_Zist.mp3
+File5=https://yambal.github.io/My-Radio/music/Chillin_in_the_Game_Boy_-_Ogi_Feel_the_Beat.mp3
+File6=https://yambal.github.io/My-Radio/music/Lo_Fi_Downtempo_-_PuzzleWaves.mp3
+File7=https://yambal.github.io/My-Radio/music/v_etom_momente_-_kbkbts..mp3
+File8=https://yambal.github.io/My-Radio/music/Night_Lounge_(Main)_-_Parler.mp3
+File9=https://yambal.github.io/My-Radio/music/Calm_Lo_Fi_-_Dmitriy.mp3
+File10=https://yambal.github.io/My-Radio/music/Vlog_Hip_Hop_(Full_Version)_-_Ivan_Ryzhko.mp3
+NumberOfEntries=11
+Version=2
