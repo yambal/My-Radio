@@ -1,0 +1,9 @@
+[playlist]
+File0=https://yambal.github.io/My-Radio/music/pop/20220927/38_seconds_-_KERRY.mp3
+File1=https://yambal.github.io/My-Radio/music/pop/20220927/Better_-_Square_a_Saw.mp3
+File2=https://yambal.github.io/My-Radio/music/pop/20220927/Bright_Red_and_March_Away_-_Ping_Pong_Club.mp3
+File3=https://yambal.github.io/My-Radio/music/pop/20220927/Fresh_Body_Shop_-_Handcrafted.mp3
+File4=https://yambal.github.io/My-Radio/music/pop/20220927/Meant_To_Be_This_Way_-_Square_a_Saw.mp3
+File5=https://yambal.github.io/My-Radio/music/pop/20220927/White_Lilac_-_Novye_Valtorny.mp3
+NumberOfEntries=6
+Version=2
