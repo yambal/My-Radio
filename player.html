@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Get that meta</title>
+
+</head>
+
+<body>
+<audio preload="none" id="aud" controls src="http://ladio.net/src/j2Eq" type="audio/mpeg">
+</audio>
+<div></div>
+<ul>
+</ul>
+<script>
+if ('serviceWorker' in navigator) {
+  var iceworker = navigator.serviceWorker.register('worker.js')
+    .then(function(reg) {
+      console.log('Icecast service worker registered');
+      addItem('Icecast service worker registered. Click play to start the stream.');
+    }).catch(function(error) {
+    console.warn('Error ' + error);
+    addItem('Error ' + error);
+  });
+}
+var delay = 8000;
+navigator.serviceWorker.addEventListener('message', event => {
+  if(event.origin != 'http://ladio.net'){
+    return;
+  }
+  setTimeout(function(){
+    document.querySelector('div').innerText = event.data.msg.substring(event.data.msg.indexOf("'") + 1,event.data.msg.lastIndexOf("'"));
+  },delay);
+  console.log(event.data.msg);
+  addItem('Message from service worker ' + event.data.msg);
+});
+document.querySelector('audio').addEventListener('play', event => {
+  performance.mark('play');
+  addItem("Measuring buffering time...");
+})
+
+document.querySelector('audio').addEventListener('playing', event => {
+  performance.mark('playing');
+  performance.measure('delay','play','playing');
+  var measures = performance.getEntriesByName("delay");
+  delay = measures[0].duration;
+  addItem("Buffering took " + (delay/1000).toFixed(2) + " seconds");
+  addItem("Setting metadata update delay to " + (delay/1000).toFixed(2) + " seconds");
+})
+
+document.querySelector('audio').addEventListener('pause', event => {
+  navigator.serviceWorker.controller.postMessage('message');
+  document.querySelector('audio').src = document.querySelector('audio').src;
+})
+
+function addItem(text) {
+  var node = document.createElement("li");
+  var textnode = document.createTextNode(text);
+  node.appendChild(textnode);
+  document.querySelector('ul').appendChild(node);
+}
+</script>
+</body>
+</html>
