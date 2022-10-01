@@ -1,0 +1,9 @@
+[playlist]
+File0=https://yambal.github.io/My-Radio/music/rock/20220927/Blackout_Romeo_-_The_Spin_Wires.mp3
+File1=https://yambal.github.io/My-Radio/music/rock/20220927/Even_Now_-_Udder_Steel.mp3
+File2=https://yambal.github.io/My-Radio/music/rock/20220927/Glitter_Bomb_-_juanitos.mp3
+File3=https://yambal.github.io/My-Radio/music/rock/20220927/Occidente_-_Rein.mp3
+File4=https://yambal.github.io/My-Radio/music/rock/20220927/Places_-_paper.plane.pilots.mp3
+File5=https://yambal.github.io/My-Radio/music/rock/20220927/Safe_and_Warm_in_Hunter's_Arms_-_Roller_Genoa.mp3
+NumberOfEntries=6
+Version=1
