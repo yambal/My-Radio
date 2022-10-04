@@ -1,0 +1,11 @@
+[playlist]
+File0=https://yambal.github.io/My-Radio/music/Bal_de_Nuit_-_Aaren_Reale.mp3
+File1=https://yambal.github.io/My-Radio/music/Hold_On_To_Dreams_(Filter_Dance_Mix)_-_zeropage.mp3
+File2=https://yambal.github.io/My-Radio/music/Johaness_Gilther_-_Subcarpathia_(Original_Mix)_-_2invention.mp3
+File3=https://yambal.github.io/My-Radio/music/LSD_(instrumental)_-_Kate_Orange.mp3
+File4=https://yambal.github.io/My-Radio/music/Make_Believe_-_felixjd.mp3
+File5=https://yambal.github.io/My-Radio/music/Pangea_-_Professor_Kliq.mp3
+File6=https://yambal.github.io/My-Radio/music/Tortoise_-_Julius_Nox.mp3
+File7=https://yambal.github.io/My-Radio/music/Wire_&_Flashing_Lights_-_Professor_Kliq.mp3
+NumberOfEntries=8
+Version=2
